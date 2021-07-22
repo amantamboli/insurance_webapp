@@ -1,0 +1,39 @@
+.apply-btn:hover {
+    background-color: rgb(201, 196, 196);
+    color: rgb(0, 0, 0);
+    background: transparent;
+    color: #2ecc71;
+    border: 3px solid #2ecc71;
+    right: -25%;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    width: 200px;
+    fill: #2ecc71;
+    transition: all .35s;
+}
+
+.apply {
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.apply-btn {
+    height: 58px;
+    width: 170px;
+    background: #333;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    font-size: 21px;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    border: 3px solid #333;
+    transition: all .35s;
+}

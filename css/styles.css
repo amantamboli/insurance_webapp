@@ -1,0 +1,16 @@
+.logincontainer {
+    margin-top: 20px;
+    /* height: 5px; */
+    width: 400px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+  }
+  #cardwidth{
+    width: 1000px;
+  }
+
+  #side{
+    margin-left: 10px;
+}

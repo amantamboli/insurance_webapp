@@ -1,0 +1,121 @@
+.container11 {
+    width: 100%;
+    height: 40vh;
+
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    margin: auto;
+    width: 40%;
+    height: 100%;
+    color: white;
+
+    background-color: rgb(63, 63, 63);
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+   
+  }
+
+  .box2 {
+    position: absolute;
+    font-weight: bold;
+    width: 100%;
+    top: 20%;
+    margin: auto;
+    font-size: 40px;
+  }
+
+  .box3 {
+    position: absolute;
+    width: 100%;
+    top: 43%;
+    margin: auto;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .box55{
+      
+    font-size: 18px;
+  }
+  .abtn {
+    height: 45px; 
+    width: 170px;
+    background: #333;
+    color: white;
+    font-family: "Lato", sans-serif;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+    border: 3px solid #333;
+    transition: all 0.35s;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .box4 {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    margin: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+  .box5{
+    margin: 5px;
+    display: inline-block;
+  }
+
+ 
+
+  .abtn:hover {
+    background-color: rgb(201, 196, 196);
+
+    background: transparent;
+    color: white;
+    border: 3px solid #2ecc71;
+    right: -25%;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    width: 200px;
+    fill: #2ecc71;
+    transition: all 0.35s;
+  }
+  @media (max-width: 800px) {
+    .container11 {
+      height: 500px;
+      background-color: white;
+      width: 100%;
+    }
+    .box {
+      width: 100%;
+    }
+    .box2 { 
+      width: 100%;
+      top: 10%;
+      font-size: 40px;
+      
+    }
+
+    .box3 {
+      top: 55%;
+      font-size: 16px;
+    }
+    .box55{
+      
+      font-size: 16px;
+    }
+    .box5{
+      margin: 5px;
+      display: inline-block;
+    }
+  }
